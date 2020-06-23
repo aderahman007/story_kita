@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="py-2 bg-dark">
   <div class="container">
-	<p class="m-0 text-center text-white">Copyright &copy; Ade Rahman 2019</p>
+    <p class="m-0 text-center text-white">Copyright &copy; Ade Rahman <?= date('Y'); ?></p>
   </div>
   <!-- /.container -->
 </footer>
@@ -20,8 +20,8 @@
 <script src="<?php echo base_url('assets/sweetalert/dist/sweetalert2.all.min.js'); ?>"></script>
 
 <script>
-  var ckeditor = CKEDITOR.replace('ckeditor',{
-        height:'200px'
+  var ckeditor = CKEDITOR.replace('ckeditor', {
+    height: '200px'
   });
 
   CKEDITOR.disableAutoInline = true;
@@ -30,4 +30,5 @@
 
 
 </body>
+
 </html>
